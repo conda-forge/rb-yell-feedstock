@@ -1,5 +1,5 @@
 {% set name = "yell" %}
-{% set version = "2.2.0" %}
+{% set version = "2.2.2" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-  sha256: c8026d190148bdd586ae3ac157df4a9c336a3ac631b5e0a8e89c6ccd91bb248d
+  sha256: 1d166f3cc3b6dc49a59778ea7156ed6d8de794c15106d48ffd6cbb061b9b26bc
 
 build:
   noarch: generic
